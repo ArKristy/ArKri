@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+    background-color: #F2D06B;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+a {
+    color: #0D0D0D;
+}
+
+a:hover {
+    color: #372759;
+    text-decoration: none;
+}
+    
+#container {
+    background-color: white;
+    width: 75%;
+    margin: 20px auto;
+}
+
+h1, 
+h2, 
+h3 {
+    text-align: center;
+    color: #372759;
+}
+
+/* Desktop Styles */
+
+nav {
+    background-color: #F2D06B;
+    padding: 5px 0;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color:#372759;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav li a:hover {
+    color: white;
+}
+
+header h1 {
+    font-size: 100px;
+    color: #372759;
+    text-shadow: 2px 2px 2px #F2D06B;
+}
+
+main {
+    padding: 20px;
+    
+}
+
+main img {
+    width: 50%;
+}
+
+#lower {
+    display: flex;
+}
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #F2D06B;
+    width: 33.3%;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr {
+    width: 95%;
+    height: 3px;
+    background-color: #d4c5f4;
+   
+   
+}
+
+.button {
+    color: #372759;
+    display: block;
+    background-color:#F2B885;
+    width: 125px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover {
+    color: #F2B885
+}
+
+#about {
+    display: flex;
+}
+
+.aboutcover {
+    margin: 50px;
+}
+
+.aboutcover img {
+    width: 100%;
+
+}
