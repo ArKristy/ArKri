@@ -6,31 +6,43 @@ img {
 }
 
 body {
-    background-color: #F2D06B;
+    background-color:#3F1640;
 }
 
 #container {
-    background-color: white;
+    background-color:#85A36F;
     padding: 10px;
+    outline: auto;
+    outline-style: dotted;
+    outline-color: #3CA450;
 }
 
 h1, h2, h3 {
     text-align: center;
+    color: #3F1640;
+    text-shadow: 2px 2px 2px #eab928;
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
 }
-  
+
+
 a {
-    color: #372759;
+    color: #3F1640;
 }
 
 a:hover {
-    color: #F2B885;
+    color: #5FA8DD;
     text-decoration: none;
 }
 
 /* Mobile Styles */
 nav {
-    background-color: #F2B885;
-    padding: 10px;
+    background-color: #3CA450;
+    padding: 35px;
+    border-radius: 10%;
+    outline: auto;
+    outline-style: double;
+    outline-color: #3F1640;
 }
 
 nav ul {
@@ -44,38 +56,43 @@ nav li {
 
 nav li a {
     display: block;
+    border: 2px;
+    border-radius: 50%;
     height: 40px;
     line-height: 40px;
-    color: #372759;
-    background-color: #F2D06B;
+    color: #3F1640;
+    background-color: #79747a;
     text-align: center;
-    margin: 5px 0;
+    margin: 10px 0;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    font-family: "Shadows Into Light", cursive;
 }
 
 nav li a:hover {
-    background-color: #F2B885;
+    background-color: #5E1075;
+    outline: auto;
+    outline-color: #FCD14F;
 }
 header h1 {
     font-size: 60px;
-    color: #372759;
+    color: #3F1640;
 }
 
 main {
-    border: 2px solid #372759;
+    border: 2px solid ;
     padding: 10px;
     margin: 10px 0;
 }
 
 #lower {
-    border: 2px solid #372759;
+    border: 2px solid ;
     padding: 10px;
 }
 
 .col {
-    border: 2px solid #372759;
+    border: 2px solid ;
     margin: 10px;
     padding: 10px;
 }
@@ -87,20 +104,20 @@ footer {
 
 .button {
     display: block;
-    margin: 10px auto;
+    margin: 50px auto;
     text-align: center;
-    background-color: #F2D06B;
-    width: 125px;
-    height: 40px;
+    background-color: #85A36F;
+    width: 200px;
+    height: 45px;
     line-height: 40px;
     text-decoration: none;
-    border: 2px solid #372759;
-    border-radius: 10px;
+    border: 5px solid ;
+    border-radius: 20px;
     font-weight: bold;
 }
 
 .button:hover {
-    color: #F2B885;
+  color: #5FA8DD;
 }
 
 @media(min-width: 786px) {
